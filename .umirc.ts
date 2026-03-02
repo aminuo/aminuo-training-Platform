@@ -29,6 +29,11 @@ export default defineConfig({
       path: '/table',
       component: './Table',
     },
+    {
+      name: '首页练习',
+      path: '/pageHome',
+      component: './PageHome',
+    },
   ],
   npmClient: 'pnpm',
 });
